@@ -1,0 +1,9 @@
+ip.src,ip.dst,frame.len,frame.protocols
+192.168.0.103,13.67.9.5,55,eth:ethertype:ip:tcp
+13.67.9.5,192.168.0.103,66,eth:ethertype:ip:tcp
+192.168.0.103,35.186.224.24,55,eth:ethertype:ip:tcp
+35.186.224.24,192.168.0.103,66,eth:ethertype:ip:tcp
+192.168.0.103,35.186.224.22,55,eth:ethertype:ip:tcp
+35.186.224.22,192.168.0.103,66,eth:ethertype:ip:tcp
+192.168.0.103,23.53.240.211,55,eth:ethertype:ip:tcp
+23.53.240.211,192.168.0.103,66,eth:ethertype:ip:tcp

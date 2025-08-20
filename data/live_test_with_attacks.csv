@@ -1,0 +1,17 @@
+protocol_type,service,flag,src_bytes,dst_bytes,count,label
+tcp,other,SF,2000,1000,12,normal
+tcp,other,SF,1500,850,10,normal
+tcp,other,SF,1000,600,5,normal
+tcp,other,SF,3000,1200,15,normal
+tcp,other,SF,500,400,3,normal
+tcp,other,SF,800,700,4,normal
+tcp,other,SF,1800,950,7,normal
+tcp,other,SF,1200,800,6,normal
+tcp,other,SF,0,0,50,attack
+tcp,other,SF,10,0,40,attack
+tcp,other,SF,5,5,30,attack
+tcp,other,SF,0,0,70,attack
+tcp,other,SF,0,0,80,attack
+tcp,other,SF,0,0,65,attack
+tcp,other,SF,20,10,60,attack
+tcp,other,SF,15,5,55,attack
